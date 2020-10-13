@@ -12,7 +12,12 @@
  * This should be an array of module namespaces used in the application.
  */
 return [
+    'Laminas\I18n',
+    'Laminas\Paginator',
+    'Laminas\InputFilter',
+    'Laminas\Filter',
     'Laminas\Router',
     'Laminas\Validator',
+    'PhlyBlog',
     'Application',
 ];
